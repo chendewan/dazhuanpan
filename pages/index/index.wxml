@@ -1,0 +1,21 @@
+<view class="root">
+  <view class='row'>
+    <view class="{{select==1?'item_s':'item'}}">奖品1 </view>
+    <view class="{{select==2?'item_s':'item'}}">奖品2 </view>
+    <view class="{{select==3?'item_s':'item'}}">奖品3 </view>
+    <view class="{{select==8?'item_s':'item'}}">奖品8 </view>
+    <view class="btn" bindtap='start'>抽奖 </view>
+    <view class="{{select==4?'item_s':'item'}}">奖品4 </view>
+    <view class="{{select==7?'item_s':'item'}}">奖品7 </view>
+    <view class="{{select==6?'item_s':'item'}}">奖品6 </view>
+    <view class="{{select==5?'item_s':'item'}}">奖品5 </view>
+  </view>
+  <input value='{{input}}' bindchange='input' class='input' type='number' />
+  <view>设置要奖品几</view>
+
+
+
+
+
+
+</view>

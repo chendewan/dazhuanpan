@@ -1,0 +1,68 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 29vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  font-size: 26rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  color: #333;
+  background: #f0f0f0;
+  border: 2rpx solid #f0f0f0;
+}
+
+.item_s {
+  width: 29vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  font-size: 26rpx;
+  height: 100rpx;
+  background: #fa7d35;
+  text-align: center;
+  line-height: 100rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  color: #fff;
+  border: 2rpx solid #f0f0f0;
+}
+
+.btn {
+  width: 29vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  font-size: 26rpx;
+  height: 100rpx;
+  background: #fa7d35;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  border: 2rpx solid #f0f0f0;
+}
+.input{
+  width: 50vw;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 10rpx;
+  margin-top: 100rpx;
+  border: 2rpx solid #f0f0f0;
+}
